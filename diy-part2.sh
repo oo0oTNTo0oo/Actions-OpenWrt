@@ -18,3 +18,18 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+# Passwall
+git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+
+# MosDNS
+git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+
+# v2ray-geodata
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+
+# AdGuardHome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+
+# Argon Theme
+git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
